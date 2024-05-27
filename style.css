@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #333;
+}
+
+.mining-area {
+    position: relative;
+}
+
+.mining-area img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mining-controls {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: left;
+}
+
+button {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff7c00;
+}
+
+#resources {
+    margin-top: 20px;
+}
+
+#resources p {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
